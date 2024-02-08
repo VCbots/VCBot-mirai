@@ -1,0 +1,18 @@
+# 动态订阅信息
+dynamic: {}
+
+# 视频订阅信息
+video: {}
+
+# 直播订阅信息
+live: {}
+
+# User To Room Map
+map: {}
+
+# 剧集订阅信息
+season: {}
+
+# User To Name
+user: 
+  11783021: 哔哩哔哩番剧出差

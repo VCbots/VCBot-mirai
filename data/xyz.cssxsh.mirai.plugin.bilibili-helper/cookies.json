@@ -1,0 +1,42 @@
+[
+    {
+        "domain": ".bilibili.com",
+        "expirationDate": 1.73891348E9,
+        "httpOnly": false,
+        "id": 0,
+        "name": "buvid3",
+        "path": "/",
+        "secure": false,
+        "value": "6DDAA69B-A5C1-B62D-614B-EAD0CA1BA7FC80924infoc"
+    },
+    {
+        "domain": ".bilibili.com",
+        "expirationDate": 1.73891348E9,
+        "httpOnly": false,
+        "id": 1,
+        "name": "b_nut",
+        "path": "/",
+        "secure": false,
+        "value": "1707377480"
+    },
+    {
+        "domain": ".bilibili.com",
+        "expirationDate": 1.73891348E9,
+        "httpOnly": false,
+        "id": 2,
+        "name": "i-wanna-go-back",
+        "path": "/",
+        "secure": false,
+        "value": "-1"
+    },
+    {
+        "domain": ".bilibili.com",
+        "expirationDate": 1.73891348E9,
+        "httpOnly": false,
+        "id": 3,
+        "name": "b_ut",
+        "path": "/",
+        "secure": false,
+        "value": "7"
+    }
+]

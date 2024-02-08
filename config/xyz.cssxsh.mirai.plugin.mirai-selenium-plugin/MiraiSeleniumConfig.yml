@@ -1,0 +1,25 @@
+# 驱动文件过期时间，默认一星期 (单位：天)
+expires: 7
+# 清理浏览器驱动，默认30 (单位：分钟)
+destroy: 30
+# 截图UA
+user_agent: 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1'
+# 截图宽度
+width: 768
+# 截图高度
+height: 1024
+# 无头模式（后台模式）
+headless: true
+# 代理地址
+proxy: ''
+# User Preferences
+preferences: {}
+
+# 启用日志文件
+log: false
+# 指定使用的浏览器，Chrome/Chromium/Firefox/Edge
+browser: ''
+# 指定使用的Factory
+factory: netty
+# 自定义 arguments
+arguments: []

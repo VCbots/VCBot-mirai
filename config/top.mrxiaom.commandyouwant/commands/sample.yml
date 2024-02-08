@@ -1,0 +1,38 @@
+# 触发命令所需权限
+# (留空为不注册权限，若不注册权限
+# 将无法限定该命令可在何处使用)
+# 权限注册后无法注销
+# 如要修改，重启生效
+perm: cssxsh.novelai
+# 权限描述
+perm-desc: 生成一张图片
+# 权限不足提示，留空不提示
+deny-tips: ''
+# 触发命令的关键词规则
+keyword: '{at:bot}画画 {next}'
+# 触发命令的关键词规则别名列表。请保持参数数量与主规则一致并避免与其他命令的规则冲突
+keywords-list: []
+# 各个关键词的屏蔽规则
+keyword-block: 
+  1: 
+    - '#'
+# 触发屏蔽规则提示，留空不提示
+keyword-block-tips: 你输入的参数不合规
+# 执行命令
+actions: 
+  - '/nai {1} #seed=114514 #step=3 #width=512 #height=512'
+# 在执行命令时，是否检查权限，若不检查将忽略权限强制执行
+is-action-check-perm: true
+# 执行命令所需金钱的货币类型
+# 留空为不花费金钱
+# 该功能需要安装 mirai-economy-core 插件生效
+cost-money-currency: 'mirai-coin'
+# 执行命令所需金钱
+cost-money: 10.0
+# 是否从全局上下文扣除金钱
+# 若关闭该项，将在用户执行命令所在群的上下文扣除金钱
+# 私聊执行命令将强制使用全局上下文
+cost-money-global: false
+# 执行命令金钱不足提醒
+# $at 为 @ 发送者，$quote 为回复发送者，$cost 为需要花费的金钱
+cost-money-not-enough: '$quote你没有足够的 Mirai 币 ($cost) 来执行该命令!'

@@ -1,0 +1,9 @@
+adapters: 
+  - http
+debug: false
+enableVerify: true
+verifyKey: INITKEYkXeuipoA
+singleMode: false
+cacheSize: 4096
+persistenceFactory: 'built-in'
+adapterSettings: {}
