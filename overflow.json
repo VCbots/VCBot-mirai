@@ -1,0 +1,8 @@
+{
+    "ws_host": "ws://127.0.0.1:5800",
+    "reversed_ws_port": -1,
+    "token": "",
+    "retry_times": 5,
+    "retry_wait_mills": 5000,
+    "retry_rest_mills": 60000
+}
