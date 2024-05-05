@@ -1,5 +1,5 @@
 {
-    "ws_host": "ws://192.168.31.233:5800",
+    "ws_host": "ws://127.0.0.1:5800",
     "reversed_ws_port": -1,
     "token": "",
     "retry_times": 5,
