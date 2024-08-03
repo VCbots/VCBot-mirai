@@ -7,7 +7,7 @@
 </div>
 
 ## 使用
-需要安装**Java 17 JRE**然后运行 `start.sh`
+需要安装**Java 17 JRE**，然后运行 `start.sh`
 或`start.bat`即可
 
 Note:首次运行时需要下载运行库，请耐心等待
